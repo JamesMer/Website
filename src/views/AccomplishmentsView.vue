@@ -8,16 +8,32 @@
     <h1>Accomplishments</h1>
     <p>Welcome to the accomplishments page where I list out my notable achievements.</p>
     <div class="row">
-      <div class="col-md-4">
-        <h2>Unity Game</h2>
-        <img src="/game1.jpg" class="img-thumbnail" alt="game screenshot">
+      <div class="col-md-6">
+        <h2>3D Multiplayer Unity Game</h2>
+        <img src="/game0.png" class="img-thumbnail" alt="3d unity game screenshot">
         <p>
-          I'm currently developing a 2D game in Unity with C# as their current programming language.
-          I plan to make it a shoot 'em up similar to games like Space Invaders.
-          It's still a work in progress but I have managed to get most of the functionality finished including player movements, shooting mechanics, and enemies that can shoot (plus lead the target) and move
+          My biggest passion project to date. As a solo game developer, this project will require a 
+          multitude of skills ranging from 3D modeling software with Blender to software development 
+          with attention to detail on the architecture utilizing game programming patterns and OOP 
+          principles to keep code maintainable and extendable. Due to the nature of the game being 
+          multiplayer makes developing this game much more difficult often having to think about 
+          network delay, the concept of ownership, RPCs, etc. The networking solution I decided to use 
+          is Unity’s Netcode for GameObjects and Steamworks API for Steam’s Peer-to-Peer networking. 
+          This project is on my GitHub but in a private repository as I do plan on releasing this project to Steam.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
+        <h2>2D Unity Game</h2>
+        <img src="/game1.jpg" class="img-thumbnail" alt="2d unity game screenshot">
+        <p>
+          Currently completed a mini 2D game in Unity with C# as the programming language mainly as a starting point 
+          for learning Unity and C#. This is a shoot 'em up similar to games like Space Invaders. It contains neat 
+          functionality including player movements, shooting mechanics, and enemies that can shoot (plus lead the target) and move.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
         <h2>wxWidgets</h2>
         <img src="/game2.jpg" class="img-thumbnail" alt="graphical user interface application">
         <p>
@@ -27,7 +43,7 @@
           Though I have created GUIs in Java, I wanted to see what it's like in C++. I say this one is tricky to get started.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h2>Website</h2>
         <img src="/firebase.svg" class="img-thumbnail" alt="graphical user interface application">
         <p>

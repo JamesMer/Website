@@ -3,19 +3,18 @@
     <title>Home</title>
     <h1>Home</h1>
     <p>
-      Hi there thanks for visiting. I'm an undergraduate student from Ryerson University studying Computer Science.
-      In my spare time I work on personal projects, play games, or play sports.
-      If you want to know more I will have them listed in my accomplishments page. The page where
-      I'm glad to share these with you kind stranger &#129300
+      Hi there thanks for visiting. I graduated from Toronto Metropolitan University (formerly Ryerson University) in Computer Science with Co-op program.
+      In my spare time I work on personal projects, play games or sports.
+      If you want to know more I will have them listed in my accomplishments page
     </p>
     <p>
       You can find my email in the contacts page.
     </p>
 
-    <div v-if="dogSource" class="text-center">
-      <p><strong>Doggo arrives to greet you!</strong></p>
-      <img :src="dogSource" alt="Photo of a dog" id="" class="rounded mx-auto d-block" :style="dogImageStyle"><br>
-      <button v-on:click="updateDogSource()" class="btn btn-primary mb-4">Show more</button>
+    <div class="text-center">
+      <p><strong>Dog API (dog.ceo)</strong></p>
+      <img v-if="dogSource" :src="dogSource" alt="Photo of a dog" id="" class="rounded mx-auto d-block" :style="dogImageStyle"><br>
+      <button v-on:click="updateDogSource()" class="btn btn-primary mb-4" :disabled="!dogSource">Cycle Images</button>
     </div>
   </div>
 </template>
