@@ -28,6 +28,20 @@ npm run dev
 npm run build
 ```
 
+## Deploying
+
+After compiling deploy to Firebase.
+
+```sh
+firebase deploy
+```
+
+If deploy fails, reauthenticate.
+
+```sh
+firebase login --reauth
+```
+
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
